@@ -15,31 +15,31 @@ P(x) is the prior probability of predictor.
  Now, use Naive Bayesian equation to calculate the posterior probability for each class. The class with the highest posterior probability is the outcome of prediction.
  
 ### USE CASES OF NAIVE BAYES 
-1.categorizing news 
-2.email spam detection
-3.face recognition
-4.Medical diagnosis
-5.digit recognition
-6.weather prediction
-7.sentimenty analysis
-8.
+1. categorizing news 
+2. email spam detection
+3. face recognition
+4. Medical diagnosis
+5. digit recognition
+6. weather prediction
+7. sentimenty analysis
+
 
 ### ADVANTAGES OF NAIVE BAYES CLASSIFIER 
-1`.very simple and easy to implement
-2.Need less training data 
-3.handles both continuous and discrete data 
-4.highly scalable with number of predictors and data points
-5.at it is fast, it can be used in real time predictions
-6.Not sensitive to irrelevant features
-7.It also perform well in multi class prediction
-8.It perform well in case of categorical input variables compared to numerical variable(s)
+1. Very simple and easy to implement
+2. Need less training data 
+3. Handles both continuous and discrete data 
+4. Highly scalable with number of predictors and data points
+5. At it is fast, it can be used in real time predictions
+6. Not sensitive to irrelevant features
+7. It also perform well in multi class prediction
+8. It perform well in case of categorical input variables compared to numerical variable(s)
 
 ### DISADVANTAGES OF NAIVE BAYES CLASSIFIER 
-1.Another limitation of Naive Bayes is the assumption of independent predictors. In real life, it is almost impossible that we get a set of predictors which are completely independent.
+1. Another limitation of Naive Bayes is the assumption of independent predictors. In real life, it is almost impossible that we get a set of predictors which are completely independent.
 
 ### THREE TYPES OF NAIVE BAYES IN SCIKIT LEARNING
-1.Gaussian: It is used in classification and it assumes that features follow a normal distribution.
+1. Gaussian: It is used in classification and it assumes that features follow a normal distribution.
 
-2.Multinomial: It is used for discrete counts. For example, let’s say,  we have a text classification problem. Here we can consider bernoulli trials which is one step further and instead of “word occurring in the document”, we have “count how often word occurs in the document”, you can think of it as “number of times outcome number x_i is observed over the n trials”.
+2. Multinomial: It is used for discrete counts. For example, let’s say,  we have a text classification problem. Here we can consider bernoulli trials which is one step further and instead of “word occurring in the document”, we have “count how often word occurs in the document”, you can think of it as “number of times outcome number x_i is observed over the n trials”.
 
-3.Bernoulli: The binomial model is useful if your feature vectors are binary (i.e. zeros and ones). One application would be text classification with ‘bag of words’ model where the 1s & 0s are “word occurs in the document” and “word does not occur in the document” respectively.
+3. Bernoulli: The binomial model is useful if your feature vectors are binary (i.e. zeros and ones). One application would be text classification with ‘bag of words’ model where the 1s & 0s are “word occurs in the document” and “word does not occur in the document” respectively.
