@@ -1,9 +1,8 @@
-# Naive-Bayes-Supervised-Method
-
+NAIVES BAYES 
 This is a simple probabilistic classifier based on applying Bayes' theorem with strong (naive) independence assumptions between the features 
 It is a classification technique based on Bayes’ Theorem with an assumption of independence among predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature. For example, a fruit may be considered to be an apple if it is red, round, and about 3 inches in diameter. Even if these features depend on each other or upon the existence of the other features, all of these properties independently contribute to the probability that this fruit is an apple and that is why it is known as ‘Naive’
 
-### HOW IT WORKS 
+HOW IT WORKS 
 Bayes theorem provides a way of calculating posterior probability P(c|x) from P(c), P(x) and P(x|c). Look at the equation below
  P(c|x) = (P(x|c)* P(c)) /  P(x) 
 Above,
@@ -14,7 +13,7 @@ P(x) is the prior probability of predictor.
 
  Now, use Naive Bayesian equation to calculate the posterior probability for each class. The class with the highest posterior probability is the outcome of prediction.
  
-### USE CASES OF NAIVE BAYES 
+USE CASES OF NAIVE BAYES 
 1.categorizing news 
 2.email spam detection
 3.face recognition
@@ -24,7 +23,7 @@ P(x) is the prior probability of predictor.
 7.sentimenty analysis
 8.
 
-### ADVANTAGES OF NAIVE BAYES CLASSIFIER 
+ADVANTAGES OF NAIVE BAYES CLASSIFIER 
 1`.very simple and easy to implement
 2.Need less training data 
 3.handles both continuous and discrete data 
@@ -34,10 +33,10 @@ P(x) is the prior probability of predictor.
 7.It also perform well in multi class prediction
 8.It perform well in case of categorical input variables compared to numerical variable(s)
 
-### DISADVANTAGES OF NAIVE BAYES CLASSIFIER 
+DISADVANTAGES OF NAIVE BAYES CLASSIFIER 
 1.Another limitation of Naive Bayes is the assumption of independent predictors. In real life, it is almost impossible that we get a set of predictors which are completely independent.
 
-### THREE TYPES OF NAIVE BAYES IN SCIKIT LEARNING
+THREE TYPES OF NAIVE BAYES IN SCIKIT LEARNING
 1.Gaussian: It is used in classification and it assumes that features follow a normal distribution.
 
 2.Multinomial: It is used for discrete counts. For example, let’s say,  we have a text classification problem. Here we can consider bernoulli trials which is one step further and instead of “word occurring in the document”, we have “count how often word occurs in the document”, you can think of it as “number of times outcome number x_i is observed over the n trials”.
